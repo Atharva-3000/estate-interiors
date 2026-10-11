@@ -245,14 +245,14 @@ p { line-height: 1.75; }
 .site-nav a.active::after { width: 100%; }
 
 .nav-cta {
-  padding: 11px 22px;
+  padding: 12px 28px;
   background: var(--ink);
   color: var(--white) !important;
   border: none;
   border-radius: 999px;
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 600;
-  letter-spacing: .05em;
+  letter-spacing: .03em;
   position: relative;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(23,32,28,.22), 0 1px 3px rgba(23,32,28,.14);
