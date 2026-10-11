@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540">
+ <rect width="1200" height="540" fill="#17201c"/>
+ <g stroke="#b49663" fill="none" opacity=".78">
+  <rect x="50" y="55" width="430" height="320" stroke-width="2"/>
+  <line x1="50" y1="135" x2="480" y2="135"/>
+  <line x1="160" y1="55" x2="160" y2="375"/>
+  <line x1="350" y1="55" x2="350" y2="375"/>
+  <rect x="80" y="170" width="150" height="160"/>
+  <rect x="265" y="170" width="185" height="80"/>
+  <path d="M520 390 C650 150 720 135 850 385" stroke-width="3"/>
+  <rect x="650" y="70" width="430" height="300" stroke-width="2"/>
+  <line x1="650" y1="170" x2="1080" y2="170"/>
+  <line x1="775" y1="70" x2="775" y2="370"/>
+  <line x1="930" y1="70" x2="930" y2="370"/>
+ </g>
+ <g fill="#f4f1eb">
+  <circle cx="560" cy="105" r="4"/><circle cx="600" cy="105" r="4"/><circle cx="640" cy="105" r="4"/>
+ </g>
+ <text x="55" y="452" fill="#f4f1eb" font-family="Arial,sans-serif" font-size="14" letter-spacing="4">SPACE · MATERIAL · LIGHT · DETAIL</text>
+</svg>
