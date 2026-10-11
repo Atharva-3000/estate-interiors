@@ -823,6 +823,50 @@ p { line-height: 1.75; }
   margin-top: var(--sp-sm);
   font-weight: 600;
 }
+
+/* Google Review Pill */
+.google-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 14px 8px 10px;
+  background: #fff;
+  border-radius: 999px;
+  border: 1.5px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    box-shadow .25s ease,
+    transform .25s cubic-bezier(0.34, 1.56, 0.64, 1),
+    border-color .25s ease;
+  width: fit-content;
+}
+.google-pill:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,.13), 0 2px 6px rgba(0,0,0,.07);
+  transform: translateY(-2px);
+  border-color: #dadada;
+}
+.google-pill-logo {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.google-pill-stars {
+  font-size: 13px;
+  color: #FBBC05;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.google-pill-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #3c4043;
+  letter-spacing: .02em;
+  line-height: 1;
+}
 .proof-copy h2 { margin-bottom: var(--sp-sm); }
 .proof-copy > p { color: var(--muted); max-width: 640px; line-height: 1.8; }
 
